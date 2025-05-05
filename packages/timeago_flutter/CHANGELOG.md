@@ -1,3 +1,10 @@
+## 4.0.0
+- 🚨 Breaking change: Rename package `timeago_flutter` to `timeago_flutter_tec`
+- Clone the repository to `timeago_tec`
+- Updated dependencies
+- Updated Dart SDK constraints
+- Add support for `timeago_tec` 4.0.0
+
 ## [3.7.0]
 - Add support for `timeago` 3.7.0
 

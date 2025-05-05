@@ -1,9 +1,9 @@
-library timeago_flutter;
+library timeago_flutter_tec;
 
 import 'package:flutter/material.dart';
 import 'src/timer_refresh_widget.dart';
-import 'package:timeago/timeago.dart' as timeago;
-export 'package:timeago/timeago.dart';
+import 'package:timeago_tec/timeago_tec.dart' as timeago;
+export 'package:timeago_tec/timeago_tec.dart';
 export 'src/timer_refresh_widget.dart';
 
 typedef TimeagoBuilder = Widget Function(BuildContext context, String value);

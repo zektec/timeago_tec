@@ -1,4 +1,4 @@
-import 'package:timeago/src/messages/lookupmessages.dart';
+import 'package:timeago_tec/src/messages/lookupmessages.dart';
 
 /// English Messages
 class BnMessages implements LookupMessages {

@@ -1,6 +1,6 @@
-# timeago_flutter_example
+# timeago_flutter_example_tec
 
-Example for timeago_flutter package
+Example for timeago_flutter_tec package
 
 ## Running
 

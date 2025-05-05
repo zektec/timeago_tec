@@ -1,4 +1,4 @@
-import 'package:timeago/src/messages/lookupmessages.dart';
+import 'package:timeago_tec/src/messages/lookupmessages.dart';
 
 /// Thai messages
 class ThMessages implements LookupMessages {

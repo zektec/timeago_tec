@@ -1,4 +1,4 @@
-import 'package:timeago/src/messages/lookupmessages.dart';
+import 'package:timeago_tec/src/messages/lookupmessages.dart';
 
 /// Bosnian Messages
 class BsMessages implements LookupMessages {

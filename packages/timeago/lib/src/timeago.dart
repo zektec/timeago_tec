@@ -1,6 +1,6 @@
-import 'package:timeago/src/messages/en_messages.dart';
-import 'package:timeago/src/messages/es_messages.dart';
-import 'package:timeago/src/messages/lookupmessages.dart';
+import 'package:timeago_tec/src/messages/en_messages.dart';
+import 'package:timeago_tec/src/messages/es_messages.dart';
+import 'package:timeago_tec/src/messages/lookupmessages.dart';
 
 String _default = 'en';
 

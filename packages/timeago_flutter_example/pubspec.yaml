@@ -1,5 +1,5 @@
-name: timeago_flutter_example
-description: A Flutter example for timeago_flutter package on the top of timeago.
+name: timeago_flutter_example_tec
+description: A Flutter example for timeago_flutter_tec package on the top of timeago_tec.
 
 version: 1.0.0+1
 
@@ -7,7 +7,7 @@ environment:
   sdk: ">=3.0.0"
 
 dependencies:
-  timeago_flutter: 
+  timeago_flutter_tec: 
     path: ../timeago_flutter
   flutter:
     sdk: flutter

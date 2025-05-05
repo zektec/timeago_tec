@@ -1,4 +1,4 @@
-name: timeago
+name: timeago_tec
 
 packages:
   - packages/**

@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.0.0
+- 🚨 Breaking change: Rename package `timeago` to `timeago_tec`
+- Clone the repository to `timeago_tec`
+- Updated dependencies
+- Updated Dart SDK constraints
+
 ## 3.7.0
 - Add support for `bn` messages @ishafiul
 - Fix grammar in `hu` messages @dJani97
@@ -270,8 +276,8 @@ BREAKING CHANGES:
 
 - Split import declaration into browser(lazy load) and server.
 
-For browser(lazy load) use: `import 'package:timeago/browser_timeago.dart';`
-For Flutter/server use: `import 'package:timeago/browser_timeago.dart';`
+For browser(lazy load) use: `import 'package:timeago_tec/browser_timeago.dart';`
+For Flutter/server use: `import 'package:timeago_tec/browser_timeago.dart';`
 
 Breaking: `TimeAgo.initializeLocale` is no longer a static method
 

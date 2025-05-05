@@ -1,7 +1,7 @@
-library timeago.test;
+library timeago_tec;
 
 import 'package:test/test.dart';
-import 'package:timeago/timeago.dart' as timeago;
+import 'package:timeago_tec/timeago_tec.dart' as timeago;
 
 final now = new DateTime.now();
 

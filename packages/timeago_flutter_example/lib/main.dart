@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:timeago_flutter/timeago_flutter.dart';
+import 'package:timeago_flutter_tec/timeago_flutter_tec.dart';
 
 final localesMap = <String, LookupMessages>{
   'am': AmMessages(),
@@ -105,7 +105,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
+  const MyHomePage({super.key, required this.title});
   final String title;
 
   @override

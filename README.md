@@ -1,10 +1,18 @@
-# timeago
+> ℹ️ IMPORTANT:
+> 
+> This repo is a clone of the original [timeago.dart](https://github.com/andresaraujo/timeago.dart) repository. The original repository was not maintained for a while, and this clone is intended to provide a stable version of the library for continued use.
+> 
+> Thanks to [Andres Araujo](https://github.com/andresaraujo), the original author, for his work on this library. This clone is not affiliated with the original repository or its maintainers.
+>
+> This repository is trying to keep the original code as close as possible to the original repository, the package name adds `_tec` to the original package name to avoid conflicts with the original package.
 
-`timeago` is a dart library that converts a date into a humanized text. Instead of showing a date  `2020-12-12 18:30`  with `timeago` you can display something like `"now", "an hour ago", "~1y", etc`
+# timeago_tec
 
-| timeago         | [![pub package](https://img.shields.io/pub/v/timeago.svg?label=timeago&color=blue)](https://pub.dartlang.org/packages/timeago)                         | core library    |
+`timeago_tec` is a dart library that converts a date into a humanized text. Instead of showing a date  `2020-12-12 18:30`  with `timeago_tec` you can display something like `"now", "an hour ago", "~1y", etc`
+
+| timeago_tec         | [![pub package](https://img.shields.io/pub/v/timeago_tec.svg?label=timeago_tec&color=blue)](https://pub.dartlang.org/packages/timeago_tec)                         | core library    |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
-| timeago_flutter | [![pub package](https://img.shields.io/pub/v/timeago_flutter.svg?label=timeago_flutter&color=blue)](https://pub.dartlang.org/packages/timeago_flutter) | flutter widgets |
+| timeago_flutter_tec | [![pub package](https://img.shields.io/pub/v/timeago_flutter_tec.svg?label=timeago_flutter_tec&color=blue)](https://pub.dartlang.org/packages/timeago_flutter_tec) | flutter widgets |
 
 ---
 
@@ -12,22 +20,22 @@
 The easiest way to use this library via top-level function `format(date)`:
 
 ```dart
-import 'package:timeago/timeago.dart' as timeago;
+import 'package:timeago_tec/timeago_tec.dart' as timeago;
 
 main() {
     final fifteenAgo = DateTime.now().subtract(Duration(minutes: 15));
 
-    print(timeago.format(fifteenAgo)); // 15 minutes ago
-    print(timeago.format(fifteenAgo, locale: 'en_short')); // 15m
-    print(timeago.format(fifteenAgo, locale: 'es')); // hace 15 minutos
+    print(timeagoformat(fifteenAgo)); // 15 minutes ago
+    print(timeagoformat(fifteenAgo, locale: 'en_short')); // 15m
+    print(timeagoformat(fifteenAgo, locale: 'es')); // hace 15 minutos
 }
 ```
 
 ##### IMPORTANT
 
-timeago library **ONLY** includes `en` and `es` messages loaded by default.
+`timeago_tec` library **ONLY** includes `en` and `es` messages loaded by default.
 
-To add more of the supported languages use `timeago.setLocaleMessages(..)`. See [locale messages](packages/timeago/lib/src/messages).
+To add more of the supported languages use `timeago.setLocaleMessages(..)`. See [locale messages](packages/timeago_tec/lib/src/messages).
 
 ##### Standard for language code
 
@@ -81,7 +89,7 @@ The focus of this library should be
 3. Provide languages contributed by the community so users can add them _as they need_ we should not add all languages by default.
 4. Library should not depend on any dependency
 
-# timeago_flutter widgets
+# timeago_flutter_tec widgets
 
 - Timeago
 - TimerRefresh

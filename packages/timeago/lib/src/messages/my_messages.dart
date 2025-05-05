@@ -1,5 +1,5 @@
 import 'package:intl/intl.dart';
-import 'package:timeago/src/messages/lookupmessages.dart';
+import 'package:timeago_tec/src/messages/lookupmessages.dart';
 
 /// Myanmar Messages
 /// မြန်မာစာ

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:timeago_flutter/timeago_flutter.dart';
+import 'package:timeago_flutter_tec/timeago_flutter_tec.dart';
 
 void main() {
   testWidgets('Timeago basic test', (WidgetTester tester) async {

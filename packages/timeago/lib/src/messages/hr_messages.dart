@@ -1,4 +1,4 @@
-import 'package:timeago/timeago.dart' as timeago;
+import 'package:timeago_tec/timeago_tec.dart' as timeago;
 
 /// Croatian messages
 class HrMessages implements timeago.LookupMessages {

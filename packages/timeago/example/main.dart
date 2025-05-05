@@ -1,6 +1,6 @@
 import 'dart:async' show Timer;
 import 'dart:html';
-import 'package:timeago/timeago.dart' as timeago;
+import 'package:timeago_tec/timeago_tec.dart' as timeago;
 
 final mainContainer = querySelector("#main");
 final listContainer = querySelector("#list");
