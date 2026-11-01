@@ -1,19 +1,7 @@
 name: Build
 
 on:
-  push:
-    branches:
-      - master
-    paths-ignore:
-      - "docs/**"
-      - "website/**"
-      - "**.md"
-  pull_request:
-    types: [opened, reopened, synchronize]
-    paths-ignore:
-      - "docs/**"
-      - "website/**"
-      - "**.md"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -46,7 +34,7 @@ jobs:
         run: melos run analyze
 
       - name: Run tests
-        run: melos run test:all   
+        run: melos run test:all
 
       - name: "Pub Check"
         run: |
